@@ -116,7 +116,7 @@ namespace Nlog_lab
             try { return Convert.ToDouble(Console.ReadLine()); }
             catch
             {
-                Console.WriteLine("Error: вводим только числа!");
+                Console.WriteLine("Ошибочка вышла(Error): вводим только числа!");
                 log.ErrorParse();
                 return OneNumber();
             }
@@ -130,7 +130,7 @@ namespace Nlog_lab
             try { return Convert.ToChar(Console.ReadLine()); }
             catch
             {
-                Console.WriteLine("Error: вводим только числа!");
+                Console.WriteLine("Ошибочка вышла(Error): вводим только оператор!");
                 log.ErrorParse();
                 return Operations();
             }
@@ -145,7 +145,7 @@ namespace Nlog_lab
             try { return Convert.ToDouble(Console.ReadLine()); }
             catch
             {
-                Console.WriteLine("Error: вводим только числа!");
+                Console.WriteLine("Ошибочка вышла(Error): вводим только числа!");
                 log.ErrorParse();
                 return TwoNumber();
             }
